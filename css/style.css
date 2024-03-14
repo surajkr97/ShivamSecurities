@@ -11,7 +11,7 @@
   /* Because we want header to be sticky later */
   height: 9.6rem;
   padding: 0 4.8rem;
-  position: relative;
+  position: sticky;
 }
 
 .logo {
@@ -611,7 +611,7 @@
 }
 
 .grid--footer {
-  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr;
 }
 
 .logo-col {
@@ -676,4 +676,8 @@
 .footer-link:hover,
 .footer-link:active {
   color: #555;
+}
+
+.social-logo {
+  font-size: 2.4rem !important;
 }

@@ -231,6 +231,10 @@
     row-gap: 4.8rem;
   }
 
+  .learn-m-btn {
+    margin-top: 1.8rem;
+  }
+
   .grid--2-cols,
   .grid--3-cols,
   .grid--4-cols {
